@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.abdosharaf.gdgfinder.ui.fragments.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_addNewChapterFragment"
+            app:destination="@id/addNewChapterFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_chaptersListFragment"
+            app:destination="@id/chaptersListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewChapterFragment"
+        android:name="com.abdosharaf.gdgfinder.ui.fragments.addNew.AddNewChapterFragment"
+        android:label="AddNewChapterFragment"
+        tools:layout="@layout/fragment_add_new_chapter" />
+    <fragment
+        android:id="@+id/chaptersListFragment"
+        android:name="com.abdosharaf.gdgfinder.ui.fragments.list.ChaptersListFragment"
+        android:label="ChaptersListFragment"
+        tools:layout="@layout/fragment_chapters_list" />
+</navigation>
