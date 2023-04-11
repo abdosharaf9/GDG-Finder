@@ -16,7 +16,6 @@
         android:paddingTop="@dimen/_16dp"
         tools:context=".ui.fragments.list.ChaptersListFragment">
 
-        <!--        TODO: Change this with chips filter-->
         <TextView
             android:id="@+id/textView"
             style="@style/title"
@@ -32,6 +31,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_16dp"
+            android:overScrollMode="never"
+            android:scrollbars="none"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView">
@@ -39,7 +40,10 @@
             <com.google.android.material.chip.ChipGroup
                 android:id="@+id/filters"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                app:singleLine="true"
+                android:padding="@dimen/_8dp"
+                app:singleSelection="true" />
 
         </HorizontalScrollView>
 
@@ -50,7 +54,7 @@
             android:layout_marginTop="@dimen/_8dp"
             android:clipToPadding="false"
             android:padding="@dimen/_8dp"
-            app:bindRecyclerView="@{viewModel.chaptersResponse.data}"
+            app:bindRecyclerView="@{viewModel.chaptersList}"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +65,7 @@
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:hideIfNull="@{viewModel.chaptersResponse.data}"
+            app:hideIfNull="@{viewModel.chaptersList}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
