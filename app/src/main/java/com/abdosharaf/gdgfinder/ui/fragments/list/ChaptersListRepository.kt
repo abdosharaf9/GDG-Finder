@@ -7,8 +7,6 @@ import com.abdosharaf.gdgfinder.Constants.TAG
 import com.abdosharaf.gdgfinder.network.ChapterData
 import com.abdosharaf.gdgfinder.network.ChaptersResponse
 import com.abdosharaf.gdgfinder.network.apiService
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.withContext
 
 class ChaptersListRepository {
 

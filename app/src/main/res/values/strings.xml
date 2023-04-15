@@ -24,6 +24,16 @@
     <string name="submitted">Submitted, no need to submit again!</string>
     <string name="about_google_developer_groups">About Google Developer Groups</string>
     <string name="gdgs_are">GDGs Are…</string>
-    <string name="gdg_description_bullets">Run by passionate individuals in local developer communities\nA group to share ideas and network with fellow developers\nA place to learn about Google technologies and development tools\nOpen to and free for all interested</string>
+    <string name="gdg_description_long">GDGs are local groups of developers who are specifically interested in Google
+        products and APIs. Each local group is called a GDG chapter and can host a variety of technical activities for
+        developers - from just a few people getting together to watch our latest videos, to large gatherings with demos
+        and tech talks, to hackathons. Google Developers supports and recognizes GDG chapters, but doesn\'t own or manage
+        them.
+    </string>
+    <string name="gdg_description_bullets">Run by passionate individuals in local developer communities\n
+        A group to share ideas and network with fellow developers\n
+        A place to learn about Google technologies and development tools\n
+        Open to and free for all interested
+    </string>
     <string name="add_new_chapter">Add new chapter</string>
 </resources>
