@@ -8,15 +8,53 @@
     </style>
 
     <style name="chapter_item_name">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">@dimen/chapter_name_text_size</item>
         <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="chapter_item_data">
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">@dimen/chapter_data_text_size</item>
         <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="main_text">
+        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:layout_marginEnd">@dimen/text_margin</item>
+    </style>
+
+    <style name="label">
+        <item name="android:layout_marginTop">@dimen/_16dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/label_size</item>
+        <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:layout_marginEnd">@dimen/text_margin</item>
+    </style>
+
+    <style name="input">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:padding">@dimen/_16dp</item>
+        <item name="android:layout_marginTop">@dimen/_8dp</item>
+        <item name="android:drawablePadding">@dimen/input_padding</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/input_text_size</item>
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:minHeight">@dimen/input_min_height</item>
+        <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:layout_marginEnd">@dimen/text_margin</item>
+    </style>
+
+    <style name="main_button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/button_text_color_selector</item>
+        <item name="android:background">@drawable/main_button</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:fontFamily">@font/roboto</item>
     </style>
 </resources>

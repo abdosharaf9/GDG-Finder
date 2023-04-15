@@ -34,7 +34,7 @@ class ChaptersListFragment : Fragment() {
             val chipsGroup = binding.filters
             val inflaterVar = LayoutInflater.from(chipsGroup.context)
 
-            val chips = filters.map { item ->
+            val chips = filters?.map { item ->
                 val chip = inflaterVar.inflate(R.layout.item_chip, chipsGroup, false) as Chip
                 chip.text = item
                 chip.tag = item
@@ -45,7 +45,7 @@ class ChaptersListFragment : Fragment() {
             }
 
             chipsGroup.removeAllViews()
-            chips.forEach { chip ->
+            chips?.forEach { chip ->
                 chipsGroup.addView(chip)
             }
         }

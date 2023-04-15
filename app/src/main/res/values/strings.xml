@@ -3,4 +3,27 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="chapters_list">Chapters list</string>
     <string name="chapter_region_country">%s - %s</string>
+    <string name="intro">Couldn\'t find a GDG in your region? Great, go ahead and start one. Fill the form below and expect to hear from us shortly!</string>
+    <string name="motivation">Tell us a bit more about why do you want to start a GDG</string>
+    <string name="meetup_image">GDG meetup image</string>
+    <string name="chapter_name">Chapter name</string>
+    <string name="enter_chapter_name">Enter chapter name</string>
+    <string name="email">Email</string>
+    <string name="enter_your_mail">Enter your email</string>
+    <string name="city">City</string>
+    <string name="enter_city">Enter your city</string>
+    <string name="country">Country</string>
+    <string name="enter_your_country">Enter your country</string>
+    <string name="region">Region</string>
+    <string name="enter_your_region">Enter your region</string>
+    <string name="motivation_text">Tell us a bit more about why do you want to start a GDG</string>
+    <string name="enter_your_motivation">Enter your motivation</string>
+    <string name="submit">Submit</string>
+    <string name="application_submitted">Got your application request!! Oh well, not really. This is a test form just for educational purposes. If you really want to submit your application please visit the website!</string>
+    <string name="done">Done</string>
+    <string name="submitted">Submitted, no need to submit again!</string>
+    <string name="about_google_developer_groups">About Google Developer Groups</string>
+    <string name="gdgs_are">GDGs Are…</string>
+    <string name="gdg_description_bullets">Run by passionate individuals in local developer communities\nA group to share ideas and network with fellow developers\nA place to learn about Google technologies and development tools\nOpen to and free for all interested</string>
+    <string name="add_new_chapter">Add new chapter</string>
 </resources>
